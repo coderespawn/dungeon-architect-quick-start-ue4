@@ -1,95 +1,60 @@
-<html>
-	<head>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 		<title>Dungeon Architect - Unreal Engine 4</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<style>
-
-
-#content-box {
-	width: 855px;
-	margin:0 auto;
-	font-family: 'Tangerine', serif;
-}
-
-
-.sample-box {
-	font-family: eurostile, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-    border: 1px solid #ccc;
-    padding: 20px; 
-    box-shadow: 4px 4px 15px #ddd;
-    min-height: 200px;
-    margin-bottom: 30px;
-    color: #333;
-}
-.sample-box h3 {
-	font-size: 16px;
-	line-height: 24px;
-}
-
-.sample-box-title {
-	font-size: 24px;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-
-.sample-box-thumb {
-	float: right;
-	margin-left: 10px;
-	//border: 1px solid #ccc;
-}
-
-h1 {
-	font-family: eurostile, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	font-size: 32px;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
-}
-
-		</style>
+		<script src="Docs/_html/js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="Docs/_html/css/quick_start.css">
 	</head>
 	<body>
 		<div id="content-box">
-			<h1>Dungeon Architect [Unreal Engine 4 Plugin]</h1>
+			<h1><b>Dungeon Architect</b> for Unreal Engine</h1>
 
 			<div class="sample-box" style="min-height: 140px;">
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/LXz137O.png"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/LXz137O.png"></div>
+				<a name="downloads"></a>
 				<div class="sample-box-title">Download</div>
 				You can purchase and download a copy of Dungeon Architect from <a href="http://coderespawn.com/index.php/product/dungeon-architect-unreal-engine-4/">here</a>.  
 				<ul>
 					<li><a href="http://coderespawn.com/index.php/product/dungeon-architect-unreal-engine-4/">Dungeon Architect Plugin</a></li>
-					<li><a href="https://github.com/coderespawn/dungeon-architect-ue4-starter-pack/archive/master.zip">Dungeon Architect Content Starter Pack</a></li>
+					<li>Dungeon Architect Quick Start Content Pack 
+					[<a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/4.9.zip">4.9</a>] 
+					
+					[<a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/4.8.zip">4.8</a>] 
+					
+					</li>
 					<li><a href="https://drive.google.com/open?id=1g1FrRcK8ohwg6VRhCLeKYB7B6mVO5xRPNkgWRfaogzY">User Guide</a></li>
 				</ul>
 			</div>
 
 			<div class="sample-box">
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/ELJK1JUm.jpg"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/ELJK1JUm.jpg"></div>
 				<div class="sample-box-title">Plugin Installation</div>
 				<ul>
 					<li>Purchase and download the plugin</li>
 					<li>Create a directory named Plugins in your game's root directory</li>
 					<li>Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.7.  Choose the appropriate one to copy into the Plugins folder
 						<br>
-						<img src="http://i.imgur.com/O8xY8H6.png">
+						<img src="Docs/_html/images/O8xY8H6.png">
 					</li>
 					<li>Refer the <a href="https://drive.google.com/open?id=1g1FrRcK8ohwg6VRhCLeKYB7B6mVO5xRPNkgWRfaogzY">User Guide</a> for more info</li>
 				</ul>
+				
+				<b>Installation Video Tutorial:</b>
+				<br>
+				<div align="center">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/JqPlrRxKHgA" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 
 			<div class="sample-box">
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/6K0qXFem.jpg"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/6K0qXFem.jpg"></div>
 				<div class="sample-box-title">Build a dungeon (Design Time)</div>
 				The plugin comes with sample assets and maps to get you started.   Open the test map where everything is already setup
 				<ul>
-					<li>Download the Content Starter Pack and extract it in your games <b>Content</b> folder <br>
-						<img src="http://i.imgur.com/8kQNFqx.png">
+					<li>Install Dungeon Architect plugin</li>
+					<li><a href="#downloads">Download</a> and extract the Quick Start Content Pack for the appropriate version of the engine</li>
+					<li>Copy the <b>Content/DA_StarterPack</b> folder into your game's Content folder<br>
+						<img src="Docs/_html/images/SampleInstallFolder.png">
 					</li>
-					<li>Open the sample map by navigating to <b>Content > DungeonArchitectStarterPack > Maps > DugeonDesignTime</b></li>
+					<li>Open the sample map by navigating to <b>Content &gt; DA_StarterPack &gt; Maps &gt; DugeonDesignTime</b></li>
 					<li>From the world outliner, click the Dungeon1 Actor.</li>
 					<li>The scene is empty. In the details panel, you will find 3 buttons in the Dungeon category.  Click the <b>"Build Dungeon"</b> button.  This will create a procedural dungeon in your scene using a sample theme that comes along with the plugin</li>
 					<li>The config structure contains various parameters that can be tweaked to get different results</li>
@@ -99,12 +64,13 @@ h1 {
 			</div>
 
 			<div class="sample-box">
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/gD7z87Nm.jpg"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/gD7z87Nm.jpg"></div>
 				<div class="sample-box-title">Build a dungeon (Runtime)</div>
 				Random dungeons can be created at runtime (e.g. during level load) using a random seed and various tweakable parameters and have the map populated with powerups, spawn points, NPCs etc.   All this can be done using pure blueprints and this sample map shows you just how to do this
 				<ul>
-					<li>Download the Content Starter Pack and extract it in your games <b>Content</b> folder</li>
-					<li>Open the sample map by navigating to <b>Content > DungeonArchitectStarterPack > Maps > DungeonRuntime</b></li>
+					<li>Install Dungeon Architect plugin</li>
+					<li>Copy DA_StarterPack to your Content folder, if not done already (see previous section)</li>
+					<li>Open the sample map by navigating to <b>Content &gt; DA_StarterPack &gt; Maps &gt; DungeonRuntime</b></li>
 					<li>The scene is empty.  Click the play button to have the procedural scene generated at runtime.  A different level is generated on each run</li>
 					<li>Refer the level blueprint on how this is done</li>
 				</ul>
@@ -112,12 +78,13 @@ h1 {
 
 			<div class="sample-box">
 				<div class="sample-box-title">Level authoring by player (Runtime)</div>
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/4fCEUJ2m.jpg"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/4fCEUJ2m.jpg"></div>
 				Dungeon Architect empowers not just your level designer, but also your players.  This sample shows how you can have an in-game level editor and let your player design the layout of the levels using easy to use controls.  Most of the heavy lifting is done by the plugin.  This game mode is designed entirely in blueprints.
 				<ul>
-					<li>Download the Content Starter Pack and extract it in your games <b>Content</b> folder</li>
-					<li>Open the sample map by navigating to <b>Content > DungeonArchitectStarterPack > Maps > RuntimeLevelBuilder</b></li>
-					<li>Do not build the dungeon. Just hit play</li>
+					<li>Install Dungeon Architect plugin</li>
+					<li>Copy DA_StarterPack to your Content folder, if not done already (see previous section)</li>
+					<li>Open the sample map by navigating to <b>Content &gt; DA_StarterPack &gt; Maps &gt; RuntimeLevelBuilder</b></li>
+					<li>Do <b>not</b> build the dungeon. Just hit play</li>
 				</ul>
 
 				Controls:
@@ -127,13 +94,39 @@ h1 {
 					<li>In build mode, Left click to draw, right click to erase</li>
 					<li>Use the mouse wheel to change level (height)</li>
 				</ul>
+				<div align="center">
+					<iframe width="960" height="720" src="https://www.youtube.com/embed/Xor9nxeNoO4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 
+			
 			<div class="sample-box" style="min-height: 370px;">
 				<div class="sample-box-thumb">
-					<img src="http://i.imgur.com/wMnfFfPm.jpg"></img>
+					<img src="Docs/_html/images/PLfunxLm.jpg">
 					<br>
-					<img src="http://i.imgur.com/4fk23Tzm.jpg"></img>
+					<img src="Docs/_html/images/dWXQcwTm.jpg">
+				</div>
+				<div class="sample-box-title">Infinity Blade: Ice Lands Theme</div>
+				Generate procedural levels using assets from Infinity Blade's Ice Lands asset pack
+				<ul>
+					<li>Create a new project (e.g an Third Person)</li>
+					<li>Install Dungeon Architect plugin</li>
+					<li>Add the <a href="https://www.unrealengine.com/marketplace/infinity-blade-ice-lands">Infinity Blade Ice Lands pack</a> in your Content folder</li>
+					<li>Copy the <b>Content/DA_InfinityBlade_Ice</b> folder into your game's Content folder<br>
+						<img src="Docs/_html/images/InfinityBladeIceInstallFolder.png">
+					<li>Explore the maps in the <b>Content/DA_InfinityBlade_Ice/Maps</b> folder</li>
+				</li></ul>
+				<br>
+				<div align="center">
+					<iframe width="1024" height="576" src="https://www.youtube.com/embed/IBubKo3hzqU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="sample-box" style="min-height: 370px;">
+				<div class="sample-box-thumb">
+					<img src="Docs/_html/images/wMnfFfPm.jpg">
+					<br>
+					<img src="Docs/_html/images/4fk23Tzm.jpg">
 				</div>
 				<div class="sample-box-title">Scifi Theme</div>
 				A set of theme files to generate nice looking levels using the awesome <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a>
@@ -141,44 +134,53 @@ h1 {
 					<li>Create a new project (e.g an FPS project)</li>
 					<li>Install Dungeon Architect plugin</li>
 					<li>Add the <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a> in your Content folder</li>
-					<li><a href="https://docs.google.com/uc?export=download&id=0B2WmpECDePd2d3NFa3E3ZWlOOVk">Download</a> and extract the theme files and a demo map in your Content folder</li>
-					<li>Open the demo map Content/DASciFi/Maps/ScifiMapDemo</li>
+					<li>Copy the <b>Content/DA_SciFi_Props</b> folder into your game's Content folder<br>
+						<img src="Docs/_html/images/ScifiPropInstallFolder.png">
+					<li>Open the demo map Content/DA_SciFi_Props/Maps/ScifiMapDemo</li>
 					<li>Select the Dungeon1 actor and click "Build Dungeon" from the Details window
-				</ul>
+				</li></ul>
+				<div align="center">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/kef5xQQbNiQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 
 
 			<div class="sample-box" style="min-height: 370px;">
 				<div class="sample-box-title">Wooden Pier Theme</div>
 				<div class="sample-box-thumb">
-					<img src="http://i.imgur.com/Cj9Ls4Mm.jpg?1"></img>
+					<img src="Docs/_html/images/Cj9Ls4Mm.jpg">
 				</div>
 				A theme file to generate levels using the awesome <a href="https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4">Modular Wooden Prop Pack</a>
 				<ul>
-					<li>Create a new <b>Top-Down</b> project with <b>Starter Content</b></li>
+					<li>Create a new <b>Top-Down</b> project</li>
 					<li>Install Dungeon Architect plugin</li>
 					<li>Add the <a href="https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4">Modular Wooden Prop Pack</a> in your Content folder</li>
-					<li><a href="https://docs.google.com/uc?export=download&id=0B2WmpECDePd2WDVhRzZHQTJ0T2c">Download</a> and extract the theme file and demo maps in your Content folder</li>
-					<li>Design time generation map:</li>
-					<ul>
-						<li>Open the extracted demo map Content/DAPier/Maps/PierDesignTime</li>
-						<li>Click play to have the character properly move around in the generated nav mesh</li>
-						<li>Try using the Dungeon Paint tool to build your layout at design time</li>
-					</ul>
+					<li><a href="#downloads">Download</a> and extract the Quick Start Content Pack for the appropriate version of the engine</li>
+					<li>Copy the <b>Content/DA_WoodenPier</b> folder into your game's Content folder<br>
+					<li>Open the demo map Content/DA_WoodenPier/Maps/PierDesignTime</li>
 				</ul>
+				
+				<b>Note:</b>In version 4.9. the asset author hasn't packages the assets properly and the subfolder (Materials, Textures, Meshes) appear in root.  If so, Create a directory named WoodenPropPack and move the above 3 directories inside WoodenPropPack (this is how it was in 4.8).  Then open the dungeon theme files 
+				
+				<div align="center">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/tGOclVH-10s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 
 			<div class="sample-box">
 				<div class="sample-box-title">Procedural Deathmatch Map</div>
-				<div class="sample-box-thumb"><img src="http://i.imgur.com/CoeRwg3m.jpg"></img></div>
+				<div class="sample-box-thumb"><img src="Docs/_html/images/CoeRwg3m.jpg"></div>
 				Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints.  This project is based on the ShooterGame demo, to reuse the bot assets
 				<ul>
 					<li>Create a new project based on the ShooterGame project</li>
 					<li>Install Dungeon Architect plugin</li>
 					<li>Add the <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a> in your Content folder</li>
-					<li>Enable dynamic nav mesh generation, so NPCs can move in our dynamically generated level. Navigate to <b>Edit > Project Settings > Navigation Mesh > Runtime Generation</b>.  Set it to <b>Dynamic</b>
-					<li><a href="https://docs.google.com/uc?export=download&id=0B2WmpECDePd2WjRLU05FTEEwaE0">Download</a> and extract the theme files and a demo map in your Content folder</li>
-					<li>Open the demo map Content/DASciFiBots/Maps/DeathmatchDemo</li>
+					<li>Enable dynamic nav mesh generation, so NPCs can move in our dynamically generated level. Navigate to <b>Edit &gt; Project Settings &gt; Navigation Mesh &gt; Runtime Generation</b>.  Set it to <b>Dynamic</b>
+					<li><a href="#downloads">Download</a> and extract the Quick Start Content Pack for the appropriate version of the engine</li>
+					<li>Copy the <b>Content/DA_ShooterDeathMatch</b> folder into your game's Content folder<br>
+						<img src="Docs/_html/images/ShooterInstallFolder.png">
+					
+					<li>Open the demo map Content/DA_ShooterDeathMatch/Maps/DA_DeathMatchMap</li>
 					<li>The map is empty,  click <b>Play</b>.  A procedural map is generated when the game starts with NPC bots spawned all over the map</li>
 					<li>View the level blueprint on how this is done</li>
 				</ul>
@@ -186,6 +188,10 @@ h1 {
 
 				<h3>Troubleshooting</h3>
 				<p>Since the sample content in this project is just copied and not migrated, you might face external reference issues.  In that case, open each of the 6 dungeon theme files (MetalLife/*Dungeons*) and resave them.  You might have to move a node and resave. 
+				</p>
+				<div align="center">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/3FRKIT-haX8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 
 			<div class="sample-box" style="min-height: 650px;">
@@ -194,43 +200,48 @@ h1 {
 				A set of theme files to generate levels using the awesome <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci Fi</a> pack
 
 				<div class="sample-box-thumb">
-					<img src="http://i.imgur.com/UyD50OHm.jpg"></img>
+					<img src="Docs/_html/images/UyD50OHm.jpg">
 					<br>
-					<img src="http://i.imgur.com/8BiUQhCm.jpg"></img>
+					<img src="Docs/_html/images/8BiUQhCm.jpg">
 					<br>
-					<img src="http://i.imgur.com/77YSPFMm.jpg"></img>
+					<img src="Docs/_html/images/77YSPFMm.jpg">
 				</div>
 
 				<ul>
 					<li>Create a new project (e.g an FPS project)</li>
 					<li>Install Dungeon Architect plugin</li>
-					<li>Add the <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci Fi</a> in your Content folder</li>
-					<li><a href="https://docs.google.com/uc?export=download&id=0B2WmpECDePd2ajJrY0dOT2htcG8">Download</a> and extract the theme files and a demo map in your Content folder</li>
+					<li>Add <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci Fi</a> in your Content folder</li>
+</li>
+					<li><a href="#downloads">Download</a> and extract the Quick Start Content Pack for the appropriate version of the engine</li>
+					<li>Copy the <b>Content/DA_SciFi_K4</b> folder into your game's Content folder<br>
 					<li>Top-Down Theme:</li>
 					<ul>
-						<li>Open the demo map Content/DASciFiK4/Maps/DATopDown</li>
+						<li>Open the demo map Content/DA_SciFi_K4/Maps/DATopDown</li>
 						<li>Select the Dungeon1 actor and click "Build Dungeon" from the Details window</li>
 					</ul>
 					<li>FPS Theme:</li>
 					<ul>
-						<li>Open the demo map Content/DASciFiK4/Maps/DAFPS</li>
+						<li>Open the demo map Content/DA_SciFi_K4/Maps/DAFPS</li>
 						<li>Select the Dungeon1 actor and click "Build Dungeon" from the Details window</li>
 					</ul>
 					<li>Oil Rig Theme:</li>
 					<ul>
-						<li>Open the demo map Content/DASciFiK4/Maps/DAOilRig</li>
+						<li>Open the demo map Content/DA_SciFi_K4/Maps/DAOilRig</li>
 						<li>Tweak the parameters and rebuild for a different dungeon.  Try painting the layout with the paint tool</li>
 					</ul>
-
+					<br>
+					<div>
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/qjLxol2kvqg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</ul>
 			</div>
 
 			<div class="sample-box" style="min-height: 370px;">
-				<div class="sample-box-title">Indoor Building</div>
+				<div class="sample-box-title">Multi-Storey Building</div>
 				<div class="sample-box-thumb">
-					<img src="http://i.imgur.com/arIrHLRm.jpg"></img>
+					<img src="Docs/_html/images/arIrHLRm.jpg">
 				</div>
-This example shows how Dungeon Architect can help you create a multi-story building. Each floor is a separate dungeon and the building actor has configurable number of floors. 
+This example shows how Dungeon Architect can help you create a multi-storey building. Each floor is a separate dungeon and the building actor has configurable number of floors. 
 <br>
 <br>
 There's also a customizable door marker which places a door and instructs dungeon architect to place a room behind the door, which would then connect this room to the rest of the floor's dungeon
@@ -246,10 +257,22 @@ The floors are connected together using a lift
 <br>
 				<b>Coming soon...</b>
 				<br>
-				<br>
-				<iframe width="480" height="270" src="https://www.youtube.com/embed/ATvixoIUMDM" frameborder="0" allowfullscreen></iframe>
+				<div align="center">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/hqQ0uSqrbT0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<br>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/ATvixoIUMDM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			
+			<div class="sample-box">
+				<div class="sample-box-title">Links</div>
+				<ul>
+					<li><a href="https://forums.unrealengine.com/showthread.php?67599-Dungeon-Architect">Support Thread</a></li>
+					<li><a href="http://coderespawn.com/bug/">Submit a Bug report</a></li>
+				</ul>
 			</div>
 			
 		</div>
-	</body>
-</html>
+	
+
+</body></html>
