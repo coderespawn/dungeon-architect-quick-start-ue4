@@ -4,6 +4,17 @@
 	font-family: 'Tangerine', serif;
 }
 
+#content-box-tutorial {
+	width: 900px;
+	margin:0 auto;
+	font-family: 'Tangerine', serif;
+}
+
+.content-box-tutorial-header {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 24px;
+}
 
 .sample-box {
 	font-family: eurostile, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
