@@ -1,0 +1,9 @@
+﻿Create new Blueprint First Person project with Starter Content
+Copy Scifi Hallways content (create new Scifi Hallways project in temporary location and copy its content folder to this project)
+Close and install Dungeon Architect
+Copy the floor plan demo theme content (Content/DA_Floorplan_Demo)
+Open the demo map: Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding
+
+
+
+https://s3-us-west-2.amazonaws.com/coderespawn-public/dungeon_architect/ue4/sample_content/DA_2.0_Content.zip
