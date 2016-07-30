@@ -19,7 +19,7 @@ If you have purchased it from the website,  follow these steps:
  
 **Installation Video Tutorial**
 
-YOUTUBE(xxx)
+YOUTUBE(JqPlrRxKHgA)
 
 Build a dungeon (Design Time)
 =============================
@@ -152,6 +152,7 @@ YOUTUBE(bkIaHRJP4CA)
 * Explore the maps in the `Content/DA_TutorialGame/Maps` folder
 
 
+
 Scifi Theme
 ===========
 A set of theme files to generate sci-fi levels using the awesome [SciFi Props Pack](https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018)
@@ -183,23 +184,34 @@ YOUTUBE(tGOclVH-10s)
 * Copy the `Content/DA_WoodenPier` folder into your game's `Content` folder
 * Explore the maps under `Content/DA_WoodenPier/Maps`
 
+Floor Plan Demo
+===============
+Build floor plans for your indoor levels using the new Floor Plan Builder.    
 
-Procedural Deathmatch Map
-=========================
-Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. This project is based on the ShooterGame demo, to reuse the bot assets
+YOUTUBE(K_iQH4TiVS0)
 
-YOUTUBE(3FRKIT-haX8)
-![Sample map](../assets/images/CoeRwg3h.jpg)
+![Sample map](../assets/images/6BauHaZh.jpg)
+![Sample map](../assets/images/vjrDITkh.jpg)
+![Sample map](../assets/images/tfurbQ7h.jpg)
+![Sample map](../assets/images/aqqVaf5h.jpg)
 
-* Create a new project based on the ShooterGame project
+* Create a new project (e.g First Person Blueprint)
 * Install Dungeon Architect plugin
-* Add the [SciFi Props Pack](https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018) in your Content folder
-* Enable dynamic nav mesh generation, so NPCs can move in our dynamically generated level. Navigate to `Edit > Project Settings > Navigation Mesh > Runtime Generation`. Set it to `Dynamic`
-* Copy the `Content/DA_ShooterDeathMatch` folder into your game's `Content` folder
-![Install folder](../assets/images/ShooterInstallFolder.png)
-* Open the demo map `Content/DA_ShooterDeathMatch/Maps/DA_DeathMatchMap`
-* The map is empty, click Play. A procedural map is generated when the game starts with NPC bots spawned all over the map
-* View the level blueprint on how this is done
+* Copy the `Content/DA_Floorplan_Demo` folder into your game's `Content` folder
+* Open the map `Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding`
+* Press **E** to call the lift programmed in the demo
+
+
+Outdoor Cliff
+=============
+An outdoor theme built with free assets
+
+YOUTUBE(_RdZeXH8LGY)
+
+* Install Dungeon Architect plugin
+* Copy the `Content/DA_OutdoorCliff` folder into your game's `Content` folder
+* Open the map `Content/DA_OutdoorCliff/ToonLand`
+
 
 Scifi Theme 2 (Manufactura K4)
 ==============================
@@ -226,6 +238,36 @@ YOUTUBE(qjLxol2kvqg)
     * Open the demo map Content/DA_SciFi_K4/Maps/DAOilRig
     * Select the `Dungeon1` actor and click *Build Dungeon* from the Details window 
 * Tweak the parameters and rebuild for a different dungeon. Try painting the layout with the paint tool
+
+
+Procedural Deathmatch Map
+=========================
+Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. This project is based on the ShooterGame demo, to reuse the bot assets
+
+YOUTUBE(3FRKIT-haX8)
+![Sample map](../assets/images/CoeRwg3h.jpg)
+
+**COMING SOON**
+
+
+Isaac Builder Demo Map
+=======================
+A demo map showcasing the Isaac builder
+
+YOUTUBE(eRrh-SLcJ0A)
+
+**COMING SOON**
+
+
+Snap Builder Demo Map
+=====================
+A demo map showcasing the Snap builder
+
+YOUTUBE(g4IXs_ns1NY)
+
+**COMING SOON**
+
+
 
 Support
 =======
