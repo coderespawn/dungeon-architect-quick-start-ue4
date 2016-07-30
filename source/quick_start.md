@@ -4,7 +4,7 @@ Dungeon Architect comes bundled with several examples to quickly get you started
 
 Download Content Pack
 =================================
-**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_1.x.zip)** the Quick Start Content pack for Dungeon Architect version **1.x**
+**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.x.zip)** the Quick Start Content pack for Dungeon Architect version **2.x**
 
 Plugin Installation (Manual)
 ============================
