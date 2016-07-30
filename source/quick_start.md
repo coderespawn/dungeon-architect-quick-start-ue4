@@ -229,7 +229,8 @@ YOUTUBE(qjLxol2kvqg)
 
 Support
 =======
-[Forum Support Thread]()
-[Website]()
+
+* [Forum Support Thread](https://forums.unrealengine.com/showthread.php?67599-Dungeon-Architect)
+* [Website](http://coderespawn.com)
 
 
