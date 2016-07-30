@@ -19,7 +19,7 @@ If you have purchased it from the website,  follow these steps:
  
 **Installation Video Tutorial**
 
-YOUTUBE(xxx)
+YOUTUBE(JqPlrRxKHgA)
 
 Build a dungeon (Design Time)
 =============================
