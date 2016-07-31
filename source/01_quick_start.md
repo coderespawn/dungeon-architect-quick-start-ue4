@@ -195,8 +195,9 @@ YOUTUBE(K_iQH4TiVS0)
 ![Sample map](../assets/images/tfurbQ7h.jpg)
 ![Sample map](../assets/images/aqqVaf5h.jpg)
 
-* Create a new project (e.g First Person Blueprint)
+* Create a new project (has to be First Person Blueprint, since the demo uses a modified player controller for the lift buttons to work)
 * Install Dungeon Architect plugin
+* Install [Sci-Fi Hallways](https://www.unrealengine.com/marketplace/scifi-hallway) (it's ok to install an older compatible version)
 * Copy the `Content/DA_Floorplan_Demo` folder into your game's `Content` folder
 * Open the map `Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding`
 * Press **E** to call the lift programmed in the demo
