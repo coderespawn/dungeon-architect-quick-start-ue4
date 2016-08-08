@@ -136,6 +136,17 @@ YOUTUBE(MkYJn2egYys)
 * Explore the maps in the `Content/DA_InfinityBlade_Grass/Maps` folder
 
 
+Candy
+=====
+A simple theme created using royalty-free assets
+
+![Install folder](../assets/images/candy_preview.jpg)
+
+* Install Dungeon Architect plugin
+* Copy the `Content/DA_Candy` folder into your game's `Content` folder
+* Explore the maps in the `Content/DA_Candy/Maps` folder
+
+
 Basic Top-Down Theme
 ====================
 The very basic theme created using simple shapes
@@ -257,7 +268,10 @@ A demo map showcasing the Isaac builder
 
 YOUTUBE(eRrh-SLcJ0A)
 
-**COMING SOON**
+* Create a Third Person Blueprint project
+* Install Dungeon Architect plugin
+* Copy the `Content/DA_Isaac_Demo` folder into your game's `Content` folder
+* Open the map `Content/DA_Isaac_Demo/IsaacDemo`
 
 
 Snap Builder Demo Map
