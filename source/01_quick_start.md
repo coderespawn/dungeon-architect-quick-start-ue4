@@ -163,6 +163,15 @@ YOUTUBE(bkIaHRJP4CA)
 * Explore the maps in the `Content/DA_TutorialGame/Maps` folder
 
 
+Procedural Deathmatch Map
+=========================
+Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. It also shows you how to setup multiplayer dungeons, where the server propagates the dungeon seed value to all the clients so they generate the exact same dungeon
+
+YOUTUBE(VZIIEQoMp7o)
+![Deathmatch map](../assets/images/edzJWxn.jpg)
+
+Follow the installation steps [here](https://github.com/coderespawn/dungeon-architect-ue4-demo-dm)
+
 
 Scifi Theme
 ===========
@@ -213,7 +222,6 @@ YOUTUBE(K_iQH4TiVS0)
 * Open the map `Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding`
 * Press **E** to call the lift programmed in the demo
 
-
 Outdoor Cliff
 =============
 An outdoor theme built with free assets
@@ -250,16 +258,6 @@ YOUTUBE(qjLxol2kvqg)
     * Open the demo map Content/DA_SciFi_K4/Maps/DAOilRig
     * Select the `Dungeon1` actor and click *Build Dungeon* from the Details window 
 * Tweak the parameters and rebuild for a different dungeon. Try painting the layout with the paint tool
-
-
-Procedural Deathmatch Map
-=========================
-Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. This project is based on the ShooterGame demo, to reuse the bot assets
-
-YOUTUBE(3FRKIT-haX8)
-![Sample map](../assets/images/CoeRwg3h.jpg)
-
-**COMING SOON**
 
 
 Isaac Builder Demo Map
