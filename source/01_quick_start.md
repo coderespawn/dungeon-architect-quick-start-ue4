@@ -168,7 +168,8 @@ Procedural Deathmatch Map
 Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. It also shows you how to setup multiplayer dungeons, where the server propagates the dungeon seed value to all the clients so they generate the exact same dungeon
 
 YOUTUBE(VZIIEQoMp7o)
-![Deathmatch map](../assets/images/edzJWxn.jpg)
+
+![Deathmatch map](../assets/images/dm_splash.jpg)
 
 Follow the installation steps [here](https://github.com/coderespawn/dungeon-architect-ue4-demo-dm)
 
