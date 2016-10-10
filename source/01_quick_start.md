@@ -4,7 +4,7 @@ Dungeon Architect comes bundled with several examples to quickly get you started
 
 Download Content Pack
 =================================
-**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.x.zip)** the Quick Start Content pack for Dungeon Architect version **2.x**
+**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.2.zip)** the Quick Start Content pack for Dungeon Architect version **2.x**
 
 Plugin Installation (Manual)
 ============================
@@ -172,6 +172,19 @@ YOUTUBE(VZIIEQoMp7o)
 ![Deathmatch map](../assets/images/dm_splash.jpg)
 
 Follow the installation steps [here](https://github.com/coderespawn/dungeon-architect-ue4-demo-dm)
+
+
+Query System Examples
+=====================
+The query system lets you query useful information about the generated dungeon so you can use it for gameplay specific tasks
+
+![Query Examples](../assets/images/yn44vgwh.jpg)
+
+* Copy `Content/DA_Query_Examples` folder into your game's `Content` folder
+* Copy `Content/DA_Isaac_Demo` folder into your game's `Content` folder
+* Copy `Content/DA_Candy` folder into your game's `Content` folder
+* Copy `Content/DA_TutorialGame` folder into your game's `Content` folder
+* Explore the maps in the `Content/DA_Query_Examples/Grid` and `Content/DA_Query_Examples/Isaac`folder
 
 
 Scifi Theme
