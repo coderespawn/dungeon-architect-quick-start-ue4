@@ -22,7 +22,7 @@
 <script>
 
 function getPdfUrl() {
-	return "../pdf/quick_start_guide_2.x.pdf";
+	return "../pdf/quick_start_guide_2.2+.pdf";
 }
 
 </script>
@@ -160,11 +160,12 @@ $(document).ready(function() {
 			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Version
 			    <span class="caret"></span></button>
 			    <ul class="dropdown-menu">
-			    				<li><a href="quick_start_guide_2.x.html">2.x</a></li>
+			    				<li><a href="quick_start_guide_2.2+.html">2.2+</a></li>
+				<li><a href="quick_start_guide_2.0+.html">2.0+</a></li>
 				<li><a href="quick_start_guide_1.x.html">1.x</a></li>
 			    </ul>
 			  </div>
-			  <div class="version-number">2.x</div>
+			  <div class="version-number">2.2+</div>
 			</div>
 <div id="header">
 <h1 class="title">Dungeon Architect Quick Start Guide</h1>
@@ -184,6 +185,7 @@ $(document).ready(function() {
 <li><a href="#candy">Candy</a></li>
 <li><a href="#basic-top-down-theme">Basic Top-Down Theme</a></li>
 <li><a href="#procedural-deathmatch-map">Procedural Deathmatch Map</a></li>
+<li><a href="#query-system-examples">Query System Examples</a></li>
 <li><a href="#scifi-theme">Scifi Theme</a></li>
 <li><a href="#wooden-pier-theme">Wooden Pier Theme</a></li>
 <li><a href="#floor-plan-demo">Floor Plan Demo</a></li>
@@ -197,7 +199,7 @@ $(document).ready(function() {
 <h1 id="introduction">Introduction</h1>
 <p>Dungeon Architect comes bundled with several examples to quickly get you started. The samples below use assets that are freely available (e.g. Infinity Blade’s Assets) and some are built on other paid assets, which you can readily use if you have them already.</p>
 <h1 id="download-content-pack">Download Content Pack</h1>
-<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.x.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.x</strong></p>
+<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.2.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.x</strong></p>
 <h1 id="plugin-installation-manual">Plugin Installation (Manual)</h1>
 <p>If you have purchased the plugin from the Marketplace, install it from the Epic Launcher</p>
 <p>If you have purchased it from the website, follow these steps:</p>
@@ -323,6 +325,19 @@ $(document).ready(function() {
 <p class="caption">Deathmatch map</p>
 </div>
 <p>Follow the installation steps <a href="https://github.com/coderespawn/dungeon-architect-ue4-demo-dm">here</a></p>
+<h1 id="query-system-examples">Query System Examples</h1>
+<p>The query system lets you query useful information about the generated dungeon so you can use it for gameplay specific tasks</p>
+<div class="figure">
+<img src="../assets/images/yn44vgwh.jpg" alt="Query Examples" />
+<p class="caption">Query Examples</p>
+</div>
+<ul>
+<li>Copy <code>Content/DA_Query_Examples</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy <code>Content/DA_Isaac_Demo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy <code>Content/DA_Candy</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy <code>Content/DA_TutorialGame</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps in the <code>Content/DA_Query_Examples/Grid</code> and <code>Content/DA_Query_Examples/Isaac</code>folder</li>
+</ul>
 <h1 id="scifi-theme">Scifi Theme</h1>
 <p>A set of theme files to generate sci-fi levels using the awesome <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a></p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/kef5xQQbNiQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>

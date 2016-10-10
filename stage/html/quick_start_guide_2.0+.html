@@ -22,7 +22,7 @@
 <script>
 
 function getPdfUrl() {
-	return "../pdf/quick_start_guide_1.x.pdf";
+	return "../pdf/quick_start_guide_2.0+.pdf";
 }
 
 </script>
@@ -165,7 +165,7 @@ $(document).ready(function() {
 				<li><a href="quick_start_guide_1.x.html">1.x</a></li>
 			    </ul>
 			  </div>
-			  <div class="version-number">1.x</div>
+			  <div class="version-number">2.0+</div>
 			</div>
 <div id="header">
 <h1 class="title">Dungeon Architect Quick Start Guide</h1>
@@ -182,18 +182,23 @@ $(document).ready(function() {
 <li><a href="#infinity-blade-fire-lands-theme-hell-forge">Infinity Blade: Fire Lands Theme (Hell Forge)</a></li>
 <li><a href="#infinity-blade-ice-lands-theme-frost-forge">Infinity Blade: Ice Lands Theme (Frost Forge)</a></li>
 <li><a href="#infinity-blade-grass-lands-theme-elven-gardens">Infinity Blade: Grass Lands Theme (Elven Gardens)</a></li>
+<li><a href="#candy">Candy</a></li>
 <li><a href="#basic-top-down-theme">Basic Top-Down Theme</a></li>
+<li><a href="#procedural-deathmatch-map">Procedural Deathmatch Map</a></li>
 <li><a href="#scifi-theme">Scifi Theme</a></li>
 <li><a href="#wooden-pier-theme">Wooden Pier Theme</a></li>
-<li><a href="#procedural-deathmatch-map">Procedural Deathmatch Map</a></li>
+<li><a href="#floor-plan-demo">Floor Plan Demo</a></li>
+<li><a href="#outdoor-cliff">Outdoor Cliff</a></li>
 <li><a href="#scifi-theme-2-manufactura-k4">Scifi Theme 2 (Manufactura K4)</a></li>
+<li><a href="#isaac-builder-demo-map">Isaac Builder Demo Map</a></li>
+<li><a href="#snap-builder-demo-map">Snap Builder Demo Map</a></li>
 <li><a href="#support">Support</a></li>
 </ul>
 </div>
 <h1 id="introduction">Introduction</h1>
 <p>Dungeon Architect comes bundled with several examples to quickly get you started. The samples below use assets that are freely available (e.g. Infinity Blade’s Assets) and some are built on other paid assets, which you can readily use if you have them already.</p>
 <h1 id="download-content-pack">Download Content Pack</h1>
-<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_1.x.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>1.x</strong></p>
+<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.x.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.x</strong></p>
 <h1 id="plugin-installation-manual">Plugin Installation (Manual)</h1>
 <p>If you have purchased the plugin from the Marketplace, install it from the Epic Launcher</p>
 <p>If you have purchased it from the website, follow these steps:</p>
@@ -290,6 +295,17 @@ $(document).ready(function() {
 <li>Copy the <code>Content/DA_InfinityBlade_Grass</code> folder into your game’s <code>Content</code> folder <img src="../assets/images/InfinityBladeGrassInstallFolder.png" alt="Install folder" /></li>
 <li>Explore the maps in the <code>Content/DA_InfinityBlade_Grass/Maps</code> folder</li>
 </ul>
+<h1 id="candy">Candy</h1>
+<p>A simple theme created using royalty-free assets</p>
+<div class="figure">
+<img src="../assets/images/candy_preview.jpg" alt="Install folder" />
+<p class="caption">Install folder</p>
+</div>
+<ul>
+<li>Install Dungeon Architect plugin</li>
+<li>Copy the <code>Content/DA_Candy</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps in the <code>Content/DA_Candy/Maps</code> folder</li>
+</ul>
 <h1 id="basic-top-down-theme">Basic Top-Down Theme</h1>
 <p>The very basic theme created using simple shapes</p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/7nj2pttBUTw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> <iframe width="853" height="480" src="https://www.youtube.com/embed/bkIaHRJP4CA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
@@ -300,6 +316,14 @@ $(document).ready(function() {
 <li>Copy the <code>Content/DA_TutorialGame</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps in the <code>Content/DA_TutorialGame/Maps</code> folder</li>
 </ul>
+<h1 id="procedural-deathmatch-map">Procedural Deathmatch Map</h1>
+<p>Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. It also shows you how to setup multiplayer dungeons, where the server propagates the dungeon seed value to all the clients so they generate the exact same dungeon</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/VZIIEQoMp7o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<div class="figure">
+<img src="../assets/images/dm_splash.jpg" alt="Deathmatch map" />
+<p class="caption">Deathmatch map</p>
+</div>
+<p>Follow the installation steps <a href="https://github.com/coderespawn/dungeon-architect-ue4-demo-dm">here</a></p>
 <h1 id="scifi-theme">Scifi Theme</h1>
 <p>A set of theme files to generate sci-fi levels using the awesome <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a></p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/kef5xQQbNiQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
@@ -321,18 +345,25 @@ $(document).ready(function() {
 <li>Copy the <code>Content/DA_WoodenPier</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps under <code>Content/DA_WoodenPier/Maps</code></li>
 </ul>
-<h1 id="procedural-deathmatch-map">Procedural Deathmatch Map</h1>
-<p>Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. This project is based on the ShooterGame demo, to reuse the bot assets</p>
-<p><iframe width="853" height="480" src="https://www.youtube.com/embed/3FRKIT-haX8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> <img src="../assets/images/CoeRwg3h.jpg" alt="Sample map" /></p>
+<h1 id="floor-plan-demo">Floor Plan Demo</h1>
+<p>Build floor plans for your indoor levels using the new Floor Plan Builder.</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/K_iQH4TiVS0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><img src="../assets/images/6BauHaZh.jpg" alt="Sample map" /> <img src="../assets/images/vjrDITkh.jpg" alt="Sample map" /> <img src="../assets/images/tfurbQ7h.jpg" alt="Sample map" /> <img src="../assets/images/aqqVaf5h.jpg" alt="Sample map" /></p>
 <ul>
-<li>Create a new project based on the ShooterGame project</li>
+<li>Create a new project (has to be First Person Blueprint, since the demo uses a modified player controller for the lift buttons to work)</li>
 <li>Install Dungeon Architect plugin</li>
-<li>Add the <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a> in your Content folder</li>
-<li>Enable dynamic nav mesh generation, so NPCs can move in our dynamically generated level. Navigate to <code>Edit &gt; Project Settings &gt; Navigation Mesh &gt; Runtime Generation</code>. Set it to <code>Dynamic</code></li>
-<li>Copy the <code>Content/DA_ShooterDeathMatch</code> folder into your game’s <code>Content</code> folder <img src="../assets/images/ShooterInstallFolder.png" alt="Install folder" /></li>
-<li>Open the demo map <code>Content/DA_ShooterDeathMatch/Maps/DA_DeathMatchMap</code></li>
-<li>The map is empty, click Play. A procedural map is generated when the game starts with NPC bots spawned all over the map</li>
-<li>View the level blueprint on how this is done</li>
+<li>Install <a href="https://www.unrealengine.com/marketplace/scifi-hallway">Sci-Fi Hallways</a> (it’s ok to install an older compatible version)</li>
+<li>Copy the <code>Content/DA_Floorplan_Demo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Open the map <code>Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding</code></li>
+<li>Press <strong>E</strong> to call the lift programmed in the demo</li>
+</ul>
+<h1 id="outdoor-cliff">Outdoor Cliff</h1>
+<p>An outdoor theme built with free assets</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/_RdZeXH8LGY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Install Dungeon Architect plugin</li>
+<li>Copy the <code>Content/DA_OutdoorCliff</code> folder into your game’s <code>Content</code> folder</li>
+<li>Open the map <code>Content/DA_OutdoorCliff/ToonLand</code></li>
 </ul>
 <h1 id="scifi-theme-2-manufactura-k4">Scifi Theme 2 (Manufactura K4)</h1>
 <p>A set of theme files to generate levels using the awesome <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci Fi</a> pack</p>
@@ -360,8 +391,24 @@ $(document).ready(function() {
 </ul></li>
 <li>Tweak the parameters and rebuild for a different dungeon. Try painting the layout with the paint tool</li>
 </ul>
+<h1 id="isaac-builder-demo-map">Isaac Builder Demo Map</h1>
+<p>A demo map showcasing the Isaac builder</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/eRrh-SLcJ0A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Create a Third Person Blueprint project</li>
+<li>Install Dungeon Architect plugin</li>
+<li>Copy the <code>Content/DA_Isaac_Demo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Open the map <code>Content/DA_Isaac_Demo/IsaacDemo</code></li>
+</ul>
+<h1 id="snap-builder-demo-map">Snap Builder Demo Map</h1>
+<p>A demo map showcasing the Snap builder</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/g4IXs_ns1NY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><strong>COMING SOON</strong></p>
 <h1 id="support">Support</h1>
-<p><a href="">Forum Support Thread</a> <a href="">Website</a></p>
+<ul>
+<li><a href="https://forums.unrealengine.com/showthread.php?67599-Dungeon-Architect">Forum Support Thread</a></li>
+<li><a href="http://coderespawn.com">Website</a></li>
+</ul>
 <div id="footer">
   &copy; 2015 <a href="http://coderespawn.com/">Code Respawn Technologies Pvt Ltd</a>
 </div>
