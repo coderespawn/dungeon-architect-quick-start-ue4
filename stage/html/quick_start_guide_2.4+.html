@@ -22,7 +22,7 @@
 <script>
 
 function getPdfUrl() {
-	return "../pdf/quick_start_guide_2.2+.pdf";
+	return "../pdf/quick_start_guide_2.4+.pdf";
 }
 
 </script>
@@ -166,7 +166,7 @@ $(document).ready(function() {
 				<li><a href="quick_start_guide_1.x.html">1.x</a></li>
 			    </ul>
 			  </div>
-			  <div class="version-number">2.2+</div>
+			  <div class="version-number">2.4+</div>
 			</div>
 <div id="header">
 <h1 class="title">Dungeon Architect Quick Start Guide</h1>
@@ -187,6 +187,7 @@ $(document).ready(function() {
 <li><a href="#basic-top-down-theme">Basic Top-Down Theme</a></li>
 <li><a href="#procedural-deathmatch-map">Procedural Deathmatch Map</a></li>
 <li><a href="#query-system-examples">Query System Examples</a></li>
+<li><a href="#misc-examples">Misc Examples</a></li>
 <li><a href="#scifi-theme">Scifi Theme</a></li>
 <li><a href="#wooden-pier-theme">Wooden Pier Theme</a></li>
 <li><a href="#floor-plan-demo">Floor Plan Demo</a></li>
@@ -200,7 +201,7 @@ $(document).ready(function() {
 <h1 id="introduction">Introduction</h1>
 <p>Dungeon Architect comes bundled with several examples to quickly get you started. The samples below use assets that are freely available (e.g. Infinity Blade’s Assets) and some are built on other paid assets, which you can readily use if you have them already.</p>
 <h1 id="download-content-pack">Download Content Pack</h1>
-<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.2.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.2+</strong></p>
+<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.4.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.4+</strong></p>
 <h1 id="plugin-installation-manual">Plugin Installation (Manual)</h1>
 <p>If you have purchased the plugin from the Marketplace, install it from the Epic Launcher</p>
 <p>If you have purchased it from the website, follow these steps:</p>
@@ -339,6 +340,24 @@ $(document).ready(function() {
 <li>Copy <code>Content/DA_TutorialGame</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps in the <code>Content/DA_Query_Examples/Grid</code> and <code>Content/DA_Query_Examples/Isaac</code>folder</li>
 </ul>
+<h1 id="misc-examples">Misc Examples</h1>
+<p>There are various examples showcasing various features of Dungeon Architect</p>
+<ul>
+<li>Copy <code>Content/DA_Misc_Examples</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy the following folders into your game’s <code>Content</code> folder: <code>Content/DA_Candy</code>, <code>Content/DA_StarterPack</code>, <code>Content/DA_TutorialGame</code></li>
+<li>Explore the maps in the <code>Content/DA_Misc_Examples/Maps</code></li>
+</ul>
+<p>Clustered theming feature allows you to automatically apply different themes to various parts (clusters) of your dungeons. This helps in adding variation to your levels</p>
+<div class="figure">
+<img src="../assets/images/misc_2.jpg" alt="Clustered Theming" />
+<p class="caption">Clustered Theming</p>
+</div>
+<p>Markers emitted by Dungeon Architect can be modified by a event listener before it is sent to the theming engine. This give you more low level control on the dungeon.<br />
+This example applies a curve filter on the markers</p>
+<div class="figure">
+<img src="../assets/images/misc_1.jpg" alt="Marker Filter Examples" />
+<p class="caption">Marker Filter Examples</p>
+</div>
 <h1 id="scifi-theme">Scifi Theme</h1>
 <p>A set of theme files to generate sci-fi levels using the awesome <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a></p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/kef5xQQbNiQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
