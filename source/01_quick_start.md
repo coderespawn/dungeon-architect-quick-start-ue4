@@ -4,7 +4,7 @@ Dungeon Architect comes bundled with several examples to quickly get you started
 
 Download Content Pack
 =================================
-**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.2.zip)** the Quick Start Content pack for Dungeon Architect version **2.2+**
+**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.4.zip)** the Quick Start Content pack for Dungeon Architect version **2.4+**
 
 Plugin Installation (Manual)
 ============================
@@ -185,6 +185,28 @@ The query system lets you query useful information about the generated dungeon s
 * Copy `Content/DA_Candy` folder into your game's `Content` folder
 * Copy `Content/DA_TutorialGame` folder into your game's `Content` folder
 * Explore the maps in the `Content/DA_Query_Examples/Grid` and `Content/DA_Query_Examples/Isaac`folder
+
+
+Misc Examples
+=============
+
+There are various examples showcasing various features of Dungeon Architect
+
+* Copy `Content/DA_Misc_Examples` folder into your game's `Content` folder
+* Copy the following folders into your game's `Content` folder:  `Content/DA_Candy`, `Content/DA_StarterPack`, `Content/DA_TutorialGame`
+* Explore the maps in the `Content/DA_Misc_Examples/Maps`
+
+
+Clustered theming feature allows you to automatically apply different themes to various parts (clusters) of your dungeons.  This helps in adding variation to your levels
+
+![Clustered Theming](../assets/images/misc_2.jpg)
+
+
+Markers emitted by Dungeon Architect can be modified by a event listener before it is sent to the theming engine.  This give you more low level control on the dungeon.   
+This example applies a curve filter on the markers 
+
+
+![Marker Filter Examples](../assets/images/misc_1.jpg)
 
 
 Scifi Theme
