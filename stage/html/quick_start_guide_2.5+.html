@@ -22,7 +22,7 @@
 <script>
 
 function getPdfUrl() {
-	return "../pdf/quick_start_guide_2.4+.pdf";
+	return "../pdf/quick_start_guide_2.5+.pdf";
 }
 
 </script>
@@ -167,7 +167,7 @@ $(document).ready(function() {
 				<li><a href="quick_start_guide_1.x.html">1.x</a></li>
 			    </ul>
 			  </div>
-			  <div class="version-number">2.4+</div>
+			  <div class="version-number">2.5+</div>
 			</div>
 <div id="header">
 <h1 class="title">Dungeon Architect Quick Start Guide</h1>
@@ -192,6 +192,7 @@ $(document).ready(function() {
 <li><a href="#scifi-theme">Scifi Theme</a></li>
 <li><a href="#wooden-pier-theme">Wooden Pier Theme</a></li>
 <li><a href="#floor-plan-demo">Floor Plan Demo</a></li>
+<li><a href="#city-builder-demo">City Builder Demo</a></li>
 <li><a href="#outdoor-cliff">Outdoor Cliff</a></li>
 <li><a href="#scifi-theme-2-manufactura-k4">Scifi Theme 2 (Manufactura K4)</a></li>
 <li><a href="#isaac-builder-demo-map">Isaac Builder Demo Map</a></li>
@@ -202,13 +203,13 @@ $(document).ready(function() {
 <h1 id="introduction">Introduction</h1>
 <p>Dungeon Architect comes bundled with several examples to quickly get you started. The samples below use assets that are freely available (e.g. Infinity Blade’s Assets) and some are built on other paid assets, which you can readily use if you have them already.</p>
 <h1 id="download-content-pack">Download Content Pack</h1>
-<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.4.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.4+</strong></p>
+<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.5.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.5+</strong></p>
 <h1 id="plugin-installation-manual">Plugin Installation (Manual)</h1>
 <p>If you have purchased the plugin from the Marketplace, install it from the Epic Launcher</p>
 <p>If you have purchased it from the website, follow these steps:</p>
 <ul>
 <li>Create a directory named Plugins in your game’s root directory</li>
-<li>Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.7. Choose the appropriate one to copy into the Plugins folder <img src="../assets/images/O8xY8H6.png" alt="Game directory structure" /></li>
+<li>Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.12. Choose the appropriate one to copy into the Plugins folder <img src="../assets/images/O8xY8H6.png" alt="Game directory structure" /></li>
 <li>Refer the <a href="https://coderespawn.github.io/dungeon-architect-user-guide-ue4">User Guide</a> for more info</li>
 </ul>
 <p><strong>Installation Video Tutorial</strong></p>
@@ -387,10 +388,22 @@ This example applies a curve filter on the markers</p>
 <ul>
 <li>Create a new project (has to be First Person Blueprint, since the demo uses a modified player controller for the lift buttons to work)</li>
 <li>Install Dungeon Architect plugin</li>
-<li>Install <a href="https://www.unrealengine.com/marketplace/scifi-hallway">Sci-Fi Hallways</a> (it’s ok to install an older compatible version)</li>
+<li>Install the free <a href="https://www.unrealengine.com/marketplace/scifi-hallway">Sci-Fi Hallways</a> (it’s ok to install an older compatible version)</li>
 <li>Copy the <code>Content/DA_Floorplan_Demo</code> folder into your game’s <code>Content</code> folder</li>
 <li>Open the map <code>Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding</code></li>
 <li>Press <strong>E</strong> to call the lift programmed in the demo</li>
+</ul>
+<h1 id="city-builder-demo">City Builder Demo</h1>
+<p>This demo shows how to use the city builder</p>
+<div class="figure">
+<img src="../assets/images/citybuilder_demo01.jpg" alt="City Builder" />
+<p class="caption">City Builder</p>
+</div>
+<ul>
+<li>Create a new project</li>
+<li>Install Dungeon Architect plugin</li>
+<li>Copy the <code>Content/DA_CityBuilder_Demo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps under <code>Content/DA_CityBuilder_Demo/Maps</code></li>
 </ul>
 <h1 id="outdoor-cliff">Outdoor Cliff</h1>
 <p>An outdoor theme built with free assets</p>
