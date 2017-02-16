@@ -4,7 +4,7 @@ Dungeon Architect comes bundled with several examples to quickly get you started
 
 Download Content Pack
 =================================
-**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.4.zip)** the Quick Start Content pack for Dungeon Architect version **2.4+**
+**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.5.zip)** the Quick Start Content pack for Dungeon Architect version **2.5+**
 
 Plugin Installation (Manual)
 ============================
@@ -13,7 +13,7 @@ If you have purchased the plugin from the Marketplace, install it from the Epic 
 If you have purchased it from the website,  follow these steps:
 
 * Create a directory named Plugins in your game's root directory
-* Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.7. Choose the appropriate one to copy into the Plugins folder 
+* Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.12. Choose the appropriate one to copy into the Plugins folder 
 ![Game directory structure](../assets/images/O8xY8H6.png)
 * Refer the [User Guide](https://coderespawn.github.io/dungeon-architect-user-guide-ue4) for more info
  
@@ -253,10 +253,21 @@ YOUTUBE(K_iQH4TiVS0)
 
 * Create a new project (has to be First Person Blueprint, since the demo uses a modified player controller for the lift buttons to work)
 * Install Dungeon Architect plugin
-* Install [Sci-Fi Hallways](https://www.unrealengine.com/marketplace/scifi-hallway) (it's ok to install an older compatible version)
+* Install the free [Sci-Fi Hallways](https://www.unrealengine.com/marketplace/scifi-hallway) (it's ok to install an older compatible version)
 * Copy the `Content/DA_Floorplan_Demo` folder into your game's `Content` folder
 * Open the map `Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding`
 * Press **E** to call the lift programmed in the demo
+
+City Builder Demo
+=================
+This demo shows how to use the city builder
+
+![City Builder](../assets/images/citybuilder_demo01.jpg)
+
+* Create a new project
+* Install Dungeon Architect plugin
+* Copy the `Content/DA_CityBuilder_Demo` folder into your game's `Content` folder
+* Explore the maps under `Content/DA_CityBuilder_Demo/Maps`
 
 Outdoor Cliff
 =============
