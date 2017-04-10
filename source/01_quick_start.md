@@ -163,6 +163,19 @@ YOUTUBE(bkIaHRJP4CA)
 * Explore the maps in the `Content/DA_TutorialGame/Maps` folder
 
 
+
+Landscape Transformer
+=====================
+Using the Landscape Transformer, you can have DA automatically modify a landscape’s height and weights (textures) around the dungeon’s layout
+
+The landscape transformer is implemented as a event listener, so you’ll need to register it in the Dungeon actor’s event listener list under the Advanced category
+
+YOUTUBE(9MI9IzNytuY)
+
+* Copy the `Content/DA_Landscape_Modifier` folder into your game's `Content` folder
+* Explore the maps in the `Content/DA_Landscape_Modifier/Grid` folder
+
+
 Procedural Deathmatch Map
 =========================
 Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. It also shows you how to setup multiplayer dungeons, where the server propagates the dungeon seed value to all the clients so they generate the exact same dungeon
@@ -178,14 +191,43 @@ Query System Examples
 =====================
 The query system lets you query useful information about the generated dungeon so you can use it for gameplay specific tasks
 
-![Query Examples](../assets/images/yn44vgwh.jpg)
-
 * Copy `Content/DA_Query_Examples` folder into your game's `Content` folder
 * Copy `Content/DA_Isaac_Demo` folder into your game's `Content` folder
 * Copy `Content/DA_Candy` folder into your game's `Content` folder
 * Copy `Content/DA_TutorialGame` folder into your game's `Content` folder
 * Explore the maps in the `Content/DA_Query_Examples/Grid` and `Content/DA_Query_Examples/Isaac`folder
 
+---
+
+`Path_DesignTime_GridQueryExample`: Trace a path between any two rooms in a dungeon.  The path properly goes through correct cell edge points (like doors and stairways).  This demo uses a spline to draw a path
+
+![Query Path example](../assets/images/yn44vgwh.jpg)
+
+---
+
+`NearbyMarker_GridQuery`: Query nearby markers from selector logic.  These are great for not placing blocking assets near doors and starways
+
+![Query Nearby Markers](../assets/images/query_nearby_actors.png)
+
+---
+
+`FurthestRooms_GridQueryExample`: Query two furthest rooms in the dungeon and use them as spawn room and boss room
+
+![Query Start End Rooms](../assets/images/query_grid_start_end.jpg)
+
+---
+
+`FurthestRooms_IsaacQueryExample`: This demo shows how to query the start / end rooms of the isaac builder
+
+![Query Start End Rooms Isaac builder](../assets/images/isaac_start_end.jpg)
+
+---
+
+`LargeStartEndRooms`: The same as above demo but this forces the start / end room to remove shape decorations so they are large enough for spawning and boss room
+
+![Query Start End Rooms Isaac builder](../assets/images/isaac_start_end2.jpg)
+
+---
 
 Misc Examples
 =============
@@ -196,17 +238,35 @@ There are various examples showcasing various features of Dungeon Architect
 * Copy the following folders into your game's `Content` folder:  `Content/DA_Candy`, `Content/DA_StarterPack`, `Content/DA_TutorialGame`
 * Explore the maps in the `Content/DA_Misc_Examples/Maps`
 
+---
 
-Clustered theming feature allows you to automatically apply different themes to various parts (clusters) of your dungeons.  This helps in adding variation to your levels
+`ClusteredTheming`: Clustered theming feature allows you to automatically apply different themes to various parts (clusters) of your dungeons.  This helps in adding variation to your levels
 
 ![Clustered Theming](../assets/images/misc_2.jpg)
 
+---
 
-Markers emitted by Dungeon Architect can be modified by a event listener before it is sent to the theming engine.  This give you more low level control on the dungeon.   
+`Multi_Dungeon_Custom_Layout`: This demo shows to use multi-dungeon setup and blend it with user defined setup
+
+![Multi-Story Dungeon Setup](../assets/images/multi_dungeon_setup.gif)
+
+YOUTUBE(81W6Rhwmhfc)
+
+---
+
+`WallQueryDemo`: This demo shows how to query nearby walls and decorate them differently if both are rooms, or remove the walls to merge the rooms together
+
+![Wall Query Demo](../assets/images/wall_query_demo.gif)
+
+---
+
+`Advanced_DungeonCurveFilter`: Markers emitted by Dungeon Architect can be modified by a event listener before it is sent to the theming engine.  This give you more low level control on the dungeon.   
 This example applies a curve filter on the markers 
 
 
 ![Marker Filter Examples](../assets/images/misc_1.jpg)
+
+---
 
 
 Scifi Theme
@@ -268,6 +328,26 @@ This demo shows how to use the city builder
 * Install Dungeon Architect plugin
 * Copy the `Content/DA_CityBuilder_Demo` folder into your game's `Content` folder
 * Explore the maps under `Content/DA_CityBuilder_Demo/Maps`
+
+Snap Builder Demo
+=================
+This demo uses the Snap builder to create a dungeon by stitching pre-built rooms (snap modules) together
+
+* Copy the `Content/DA_Snap_GameDemo` folder into your game's `Content` folder
+* Explore the maps under `Content/DA_Snap_GameDemo/Maps`
+
+YOUTUBE(pKeHsHekjpE)
+
+Custom Grid Builder Demo
+=================
+The Custom Grid Builder has high level functions that you can use to define your own dungeon layouts.   This demo shows how a custom layout was created in blueprints to create a dungeon layout along a straight line
+
+YOUTUBE(AzO2gI0NV-Q)
+
+* Copy the `Content/DA_CustomBuilder` folder into your game's `Content` folder
+* Explore the maps under `Content/DA_CustomBuilder/Maps`
+* Check the Dungeon's Builder class blueprint `BP_StraightLineBuilder` for an example on building your own layout
+
 
 Outdoor Cliff
 =============
