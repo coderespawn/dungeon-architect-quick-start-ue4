@@ -271,7 +271,7 @@ This example applies a curve filter on the markers
 
 Scifi Theme
 ===========
-A set of theme files to generate sci-fi levels using the awesome [SciFi Props Pack](https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018)
+A set of theme files to generate sci-fi levels using the awesome [SciFi Props Pack](https://www.unrealengine.com/marketplace/scifi-props-pack)
 
 YOUTUBE(kef5xQQbNiQ)
 
@@ -280,7 +280,7 @@ YOUTUBE(kef5xQQbNiQ)
 
 * Create a new project (e.g an FPS project)
 * Install Dungeon Architect plugin
-* Install the [SciFi Props Pack](https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018) to your project
+* Install the [SciFi Props Pack](https://www.unrealengine.com/marketplace/scifi-props-pack) to your project
 * Copy the `Content/DA_SciFi_Props` folder into your game's `Content` folder
 ![Install folder](../assets/images/ScifiPropInstallFolder.png)
 * Open the demo map `Content/DA_SciFi_Props/Maps/ScifiMapDemo`
@@ -290,13 +290,13 @@ YOUTUBE(kef5xQQbNiQ)
 Wooden Pier Theme
 =================
 
-A theme file to generate levels using the awesome [Modular Wooden Prop Pack](https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4)
+A theme file to generate levels using the awesome [Modular Wooden Prop Pack](https://www.unrealengine.com/marketplace/modular-wooden-prop-pack)
 
 ![Wooden Pier theme](../assets/images/Cj9Ls4Mh.jpg)
 YOUTUBE(tGOclVH-10s)
 
 * Install Dungeon Architect plugin
-* Install the [Modular Wooden Prop Pack](https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4) to your project
+* Install the [Modular Wooden Prop Pack](https://www.unrealengine.com/marketplace/modular-wooden-prop-pack) to your project
 * Copy the `Content/DA_WoodenPier` folder into your game's `Content` folder
 * Explore the maps under `Content/DA_WoodenPier/Maps`
 
@@ -363,7 +363,7 @@ YOUTUBE(_RdZeXH8LGY)
 Scifi Theme 2 (Manufactura K4)
 ==============================
 
-A set of theme files to generate levels using the awesome [Top-Down Sci Fi](https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e) pack
+A set of theme files to generate levels using the awesome [Top-Down Sci Fi](https://www.unrealengine.com/marketplace/top-down-sci-fi) pack
 
 YOUTUBE(qjLxol2kvqg)
 
@@ -373,7 +373,7 @@ YOUTUBE(qjLxol2kvqg)
 
 * Create a new project (e.g an FPS project)
 * Install Dungeon Architect plugin
-* Install [Top-Down Sci-Fi](https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e) pack to your project
+* Install [Top-Down Sci-Fi](https://www.unrealengine.com/marketplace/top-down-sci-fi) pack to your project
 * Copy the `Content/DA_SciFi_K4` folder into your game's `Content` folder
 * Top-Down Theme:
     * Open the demo map `Content/DA_SciFi_K4/Maps/DATopDown`
