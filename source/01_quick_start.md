@@ -163,6 +163,32 @@ YOUTUBE(bkIaHRJP4CA)
 * Explore the maps in the `Content/DA_TutorialGame/Maps` folder
 
 
+Multiplayer Demo
+================
+
+**Overview**
+YOUTUBE(s6LCq9vmn9s)
+
+**Tutorial**
+YOUTUBE(RooAWh76Wro)
+
+This demo shows you how to create a random dungeon in a multiplayer setting:
+
+ * The server decides on a seed and sends it to all the clients.  
+ * The clients build the dungeon locally
+ * The server waits till all the clients have build the dungeon before starting the game
+ * All players are teleported to valid locations in the dungeon
+
+ 
+
+Installation Steps:
+
+ * Add third person blueprint feature to the project
+ * Copy the `Content/DA_MultiplayerDemo` folder into your game's `Content` folder
+ * Copy the `Content/DA_Candy` folder into your game's `Content` folder
+ * Explore the maps in the `Content/DA_MultiplayerDemo/Maps` folder
+ * Check the video for more info
+  
 
 Landscape Transformer
 =====================
