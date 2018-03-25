@@ -147,6 +147,19 @@ A simple theme created using royalty-free assets
 * Explore the maps in the `Content/DA_Candy/Maps` folder
 
 
+Soul Forge
+==========
+A theme created using the free Soul Cave asset from Epic Games
+
+YOUTUBE(X8GE72IF7QU)
+
+* Install Dungeon Architect plugin
+* Add the free [Soul Cave](https://www.unrealengine.com/marketplace/soul-cave) asset to your project
+* Copy the `Content/DA_SoulForge` folder into your game's `Content` folder
+* Explore the maps in the `Content/DA_SoulForge/Maps` folder
+
+
+
 Basic Top-Down Theme
 ====================
 The very basic theme created using simple shapes
