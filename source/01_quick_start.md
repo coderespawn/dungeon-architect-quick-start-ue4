@@ -372,10 +372,19 @@ Snap Builder Demo
 =================
 This demo uses the Snap builder to create a dungeon by stitching pre-built rooms (snap modules) together
 
-* Copy the `Content/DA_Snap_GameDemo` folder into your game's `Content` folder
-* Explore the maps under `Content/DA_Snap_GameDemo/Maps`
+[Documentation](https://coderespawn.github.io/dungeon-architect-snap-map-user-guide-ue4/)
 
-YOUTUBE(pKeHsHekjpE)
+[Source Code](https://drive.google.com/file/d/1ogDj-hxcYECm8CxSH_knxoHC4jP-qll6/view?usp=sharing)
+
+[Binaries](https://drive.google.com/file/d/1r7o1Mz-Wf_0H4mp_Rt8AqxkBG6r29loM/view?usp=sharing)
+
+Download the Source Code and copy it to the Contents folder
+
+YOUTUBE(woKkR6P_sHY)
+
+YOUTUBE(R5Lcx9YSYpo)
+
+YOUTUBE(9Crl9tGkHXA)
 
 Custom Grid Builder Demo
 =================
