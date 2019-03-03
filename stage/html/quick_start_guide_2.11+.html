@@ -22,7 +22,7 @@
 <script>
 
 function getPdfUrl() {
-	return "../pdf/quick_start_guide_2.2+.pdf";
+	return "../pdf/quick_start_guide_2.11+.pdf";
 }
 
 </script>
@@ -160,16 +160,12 @@ $(document).ready(function() {
 			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Version
 			    <span class="caret"></span></button>
 			    <ul class="dropdown-menu">
-			    				<li><a href="quick_start_guide_2.8+.html">2.8+</a></li>
+			    				<li><a href="quick_start_guide_2.11+.html">2.11+</a></li>
+				<li><a href="quick_start_guide_2.8+.html">2.8+</a></li>
 				<li><a href="quick_start_guide_2.6+.html">2.6+</a></li>
-				<li><a href="quick_start_guide_2.5+.html">2.5+</a></li>
-				<li><a href="quick_start_guide_2.4+.html">2.4+</a></li>
-				<li><a href="quick_start_guide_2.2+.html">2.2+</a></li>
-				<li><a href="quick_start_guide_2.0+.html">2.0+</a></li>
-				<li><a href="quick_start_guide_1.x.html">1.x</a></li>
 			    </ul>
 			  </div>
-			  <div class="version-number">2.2+</div>
+			  <div class="version-number">2.11+</div>
 			</div>
 <div id="header">
 <h1 class="title">Dungeon Architect Quick Start Guide</h1>
@@ -187,12 +183,19 @@ $(document).ready(function() {
 <li><a href="#infinity-blade-ice-lands-theme-frost-forge">Infinity Blade: Ice Lands Theme (Frost Forge)</a></li>
 <li><a href="#infinity-blade-grass-lands-theme-elven-gardens">Infinity Blade: Grass Lands Theme (Elven Gardens)</a></li>
 <li><a href="#candy">Candy</a></li>
+<li><a href="#soul-forge">Soul Forge</a></li>
 <li><a href="#basic-top-down-theme">Basic Top-Down Theme</a></li>
+<li><a href="#multiplayer-demo">Multiplayer Demo</a></li>
+<li><a href="#landscape-transformer">Landscape Transformer</a></li>
 <li><a href="#procedural-deathmatch-map">Procedural Deathmatch Map</a></li>
 <li><a href="#query-system-examples">Query System Examples</a></li>
+<li><a href="#misc-examples">Misc Examples</a></li>
 <li><a href="#scifi-theme">Scifi Theme</a></li>
 <li><a href="#wooden-pier-theme">Wooden Pier Theme</a></li>
 <li><a href="#floor-plan-demo">Floor Plan Demo</a></li>
+<li><a href="#city-builder-demo">City Builder Demo</a></li>
+<li><a href="#snap-builder-demo">Snap Builder Demo</a></li>
+<li><a href="#custom-grid-builder-demo">Custom Grid Builder Demo</a></li>
 <li><a href="#outdoor-cliff">Outdoor Cliff</a></li>
 <li><a href="#scifi-theme-2-manufactura-k4">Scifi Theme 2 (Manufactura K4)</a></li>
 <li><a href="#isaac-builder-demo-map">Isaac Builder Demo Map</a></li>
@@ -203,13 +206,13 @@ $(document).ready(function() {
 <h1 id="introduction">Introduction</h1>
 <p>Dungeon Architect comes bundled with several examples to quickly get you started. The samples below use assets that are freely available (e.g. Infinity Blade’s Assets) and some are built on other paid assets, which you can readily use if you have them already.</p>
 <h1 id="download-content-pack">Download Content Pack</h1>
-<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.2.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.2+</strong></p>
+<p><strong><a href="https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.8.zip">Download</a></strong> the Quick Start Content pack for Dungeon Architect version <strong>2.8+</strong></p>
 <h1 id="plugin-installation-manual">Plugin Installation (Manual)</h1>
 <p>If you have purchased the plugin from the Marketplace, install it from the Epic Launcher</p>
 <p>If you have purchased it from the website, follow these steps:</p>
 <ul>
 <li>Create a directory named Plugins in your game’s root directory</li>
-<li>Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.7. Choose the appropriate one to copy into the Plugins folder <img src="../assets/images/O8xY8H6.png" alt="Game directory structure" /></li>
+<li>Extract the content of the downloaded plugin into the plugins directory. All major versions of UE4 are supported since 4.12. Choose the appropriate one to copy into the Plugins folder <img src="../assets/images/O8xY8H6.png" alt="Game directory structure" /></li>
 <li>Refer the <a href="https://coderespawn.github.io/dungeon-architect-user-guide-ue4">User Guide</a> for more info</li>
 </ul>
 <p><strong>Installation Video Tutorial</strong></p>
@@ -311,6 +314,15 @@ $(document).ready(function() {
 <li>Copy the <code>Content/DA_Candy</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps in the <code>Content/DA_Candy/Maps</code> folder</li>
 </ul>
+<h1 id="soul-forge">Soul Forge</h1>
+<p>A theme created using the free Soul Cave asset from Epic Games</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/X8GE72IF7QU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Install Dungeon Architect plugin</li>
+<li>Add the free <a href="https://www.unrealengine.com/marketplace/soul-cave">Soul Cave</a> asset to your project</li>
+<li>Copy the <code>Content/DA_SoulForge</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps in the <code>Content/DA_SoulForge/Maps</code> folder</li>
+</ul>
 <h1 id="basic-top-down-theme">Basic Top-Down Theme</h1>
 <p>The very basic theme created using simple shapes</p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/7nj2pttBUTw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> <iframe width="853" height="480" src="https://www.youtube.com/embed/bkIaHRJP4CA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
@@ -320,6 +332,33 @@ $(document).ready(function() {
 <li>Install Dungeon Architect plugin</li>
 <li>Copy the <code>Content/DA_TutorialGame</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps in the <code>Content/DA_TutorialGame/Maps</code> folder</li>
+</ul>
+<h1 id="multiplayer-demo">Multiplayer Demo</h1>
+<p><strong>Overview</strong> <iframe width="853" height="480" src="https://www.youtube.com/embed/s6LCq9vmn9s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><strong>Tutorial</strong> <iframe width="853" height="480" src="https://www.youtube.com/embed/RooAWh76Wro?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p>This demo shows you how to create a random dungeon in a multiplayer setting:</p>
+<ul>
+<li>The server decides on a seed and sends it to all the clients.<br />
+</li>
+<li>The clients build the dungeon locally</li>
+<li>The server waits till all the clients have build the dungeon before starting the game</li>
+<li>All players are teleported to valid locations in the dungeon</li>
+</ul>
+<p>Installation Steps:</p>
+<ul>
+<li>Add third person blueprint feature to the project</li>
+<li>Copy the <code>Content/DA_MultiplayerDemo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy the <code>Content/DA_Candy</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps in the <code>Content/DA_MultiplayerDemo/Maps</code> folder</li>
+<li>Check the video for more info</li>
+</ul>
+<h1 id="landscape-transformer">Landscape Transformer</h1>
+<p>Using the Landscape Transformer, you can have DA automatically modify a landscape’s height and weights (textures) around the dungeon’s layout</p>
+<p>The landscape transformer is implemented as a event listener, so you’ll need to register it in the Dungeon actor’s event listener list under the Advanced category</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/9MI9IzNytuY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Copy the <code>Content/DA_Landscape_Modifier</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps in the <code>Content/DA_Landscape_Modifier/Grid</code> folder</li>
 </ul>
 <h1 id="procedural-deathmatch-map">Procedural Deathmatch Map</h1>
 <p>Generate a random map at runtime with AI bots, powerups, spawn points etc scattered all over the map using only blueprints. It also shows you how to setup multiplayer dungeons, where the server propagates the dungeon seed value to all the clients so they generate the exact same dungeon</p>
@@ -331,10 +370,6 @@ $(document).ready(function() {
 <p>Follow the installation steps <a href="https://github.com/coderespawn/dungeon-architect-ue4-demo-dm">here</a></p>
 <h1 id="query-system-examples">Query System Examples</h1>
 <p>The query system lets you query useful information about the generated dungeon so you can use it for gameplay specific tasks</p>
-<div class="figure">
-<img src="../assets/images/yn44vgwh.jpg" alt="Query Examples" />
-<p class="caption">Query Examples</p>
-</div>
 <ul>
 <li>Copy <code>Content/DA_Query_Examples</code> folder into your game’s <code>Content</code> folder</li>
 <li>Copy <code>Content/DA_Isaac_Demo</code> folder into your game’s <code>Content</code> folder</li>
@@ -342,24 +377,89 @@ $(document).ready(function() {
 <li>Copy <code>Content/DA_TutorialGame</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps in the <code>Content/DA_Query_Examples/Grid</code> and <code>Content/DA_Query_Examples/Isaac</code>folder</li>
 </ul>
+<hr />
+<p><code>Path_DesignTime_GridQueryExample</code>: Trace a path between any two rooms in a dungeon. The path properly goes through correct cell edge points (like doors and stairways). This demo uses a spline to draw a path</p>
+<div class="figure">
+<img src="../assets/images/yn44vgwh.jpg" alt="Query Path example" />
+<p class="caption">Query Path example</p>
+</div>
+<hr />
+<p><code>NearbyMarker_GridQuery</code>: Query nearby markers from selector logic. These are great for not placing blocking assets near doors and starways</p>
+<div class="figure">
+<img src="../assets/images/query_nearby_actors.png" alt="Query Nearby Markers" />
+<p class="caption">Query Nearby Markers</p>
+</div>
+<hr />
+<p><code>FurthestRooms_GridQueryExample</code>: Query two furthest rooms in the dungeon and use them as spawn room and boss room</p>
+<div class="figure">
+<img src="../assets/images/query_grid_start_end.jpg" alt="Query Start End Rooms" />
+<p class="caption">Query Start End Rooms</p>
+</div>
+<hr />
+<p><code>FurthestRooms_IsaacQueryExample</code>: This demo shows how to query the start / end rooms of the isaac builder</p>
+<div class="figure">
+<img src="../assets/images/isaac_start_end.jpg" alt="Query Start End Rooms Isaac builder" />
+<p class="caption">Query Start End Rooms Isaac builder</p>
+</div>
+<hr />
+<p><code>LargeStartEndRooms</code>: The same as above demo but this forces the start / end room to remove shape decorations so they are large enough for spawning and boss room</p>
+<div class="figure">
+<img src="../assets/images/isaac_start_end2.jpg" alt="Query Start End Rooms Isaac builder" />
+<p class="caption">Query Start End Rooms Isaac builder</p>
+</div>
+<hr />
+<h1 id="misc-examples">Misc Examples</h1>
+<p>There are various examples showcasing various features of Dungeon Architect</p>
+<ul>
+<li>Copy <code>Content/DA_Misc_Examples</code> folder into your game’s <code>Content</code> folder</li>
+<li>Copy the following folders into your game’s <code>Content</code> folder: <code>Content/DA_Candy</code>, <code>Content/DA_StarterPack</code>, <code>Content/DA_TutorialGame</code></li>
+<li>Explore the maps in the <code>Content/DA_Misc_Examples/Maps</code></li>
+</ul>
+<hr />
+<p><code>ClusteredTheming</code>: Clustered theming feature allows you to automatically apply different themes to various parts (clusters) of your dungeons. This helps in adding variation to your levels</p>
+<div class="figure">
+<img src="../assets/images/misc_2.jpg" alt="Clustered Theming" />
+<p class="caption">Clustered Theming</p>
+</div>
+<hr />
+<p><code>Multi_Dungeon_Custom_Layout</code>: This demo shows to use multi-dungeon setup and blend it with user defined setup</p>
+<div class="figure">
+<img src="../assets/images/multi_dungeon_setup.gif" alt="Multi-Story Dungeon Setup" />
+<p class="caption">Multi-Story Dungeon Setup</p>
+</div>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/81W6Rhwmhfc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<hr />
+<p><code>WallQueryDemo</code>: This demo shows how to query nearby walls and decorate them differently if both are rooms, or remove the walls to merge the rooms together</p>
+<div class="figure">
+<img src="../assets/images/wall_query_demo.gif" alt="Wall Query Demo" />
+<p class="caption">Wall Query Demo</p>
+</div>
+<hr />
+<p><code>Advanced_DungeonCurveFilter</code>: Markers emitted by Dungeon Architect can be modified by a event listener before it is sent to the theming engine. This give you more low level control on the dungeon.<br />
+This example applies a curve filter on the markers</p>
+<div class="figure">
+<img src="../assets/images/misc_1.jpg" alt="Marker Filter Examples" />
+<p class="caption">Marker Filter Examples</p>
+</div>
+<hr />
 <h1 id="scifi-theme">Scifi Theme</h1>
-<p>A set of theme files to generate sci-fi levels using the awesome <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a></p>
+<p>A set of theme files to generate sci-fi levels using the awesome <a href="https://www.unrealengine.com/marketplace/scifi-props-pack">SciFi Props Pack</a></p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/kef5xQQbNiQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 <p><img src="../assets/images/wMnfFfPh.jpg" alt="Sample map" /> <img src="../assets/images/4fk23Tzh.jpg" alt="Sample map" /></p>
 <ul>
 <li>Create a new project (e.g an FPS project)</li>
 <li>Install Dungeon Architect plugin</li>
-<li>Install the <a href="https://www.unrealengine.com/content/4bfaed169f2d47e69a741afe7126d018">SciFi Props Pack</a> to your project</li>
+<li>Install the <a href="https://www.unrealengine.com/marketplace/scifi-props-pack">SciFi Props Pack</a> to your project</li>
 <li>Copy the <code>Content/DA_SciFi_Props</code> folder into your game’s <code>Content</code> folder <img src="../assets/images/ScifiPropInstallFolder.png" alt="Install folder" /></li>
 <li>Open the demo map <code>Content/DA_SciFi_Props/Maps/ScifiMapDemo</code></li>
 <li>Select the <code>Dungeon1</code> actor and click <em>Build Dungeon</em> from the Details window</li>
 </ul>
 <h1 id="wooden-pier-theme">Wooden Pier Theme</h1>
-<p>A theme file to generate levels using the awesome <a href="https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4">Modular Wooden Prop Pack</a></p>
+<p>A theme file to generate levels using the awesome <a href="https://www.unrealengine.com/marketplace/modular-wooden-prop-pack">Modular Wooden Prop Pack</a></p>
 <p><img src="../assets/images/Cj9Ls4Mh.jpg" alt="Wooden Pier theme" /> <iframe width="853" height="480" src="https://www.youtube.com/embed/tGOclVH-10s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 <ul>
 <li>Install Dungeon Architect plugin</li>
-<li>Install the <a href="https://www.unrealengine.com/content/41a805989d4440e0bb91eb0dd3450ed4">Modular Wooden Prop Pack</a> to your project</li>
+<li>Install the <a href="https://www.unrealengine.com/marketplace/modular-wooden-prop-pack">Modular Wooden Prop Pack</a> to your project</li>
 <li>Copy the <code>Content/DA_WoodenPier</code> folder into your game’s <code>Content</code> folder</li>
 <li>Explore the maps under <code>Content/DA_WoodenPier/Maps</code></li>
 </ul>
@@ -370,10 +470,39 @@ $(document).ready(function() {
 <ul>
 <li>Create a new project (has to be First Person Blueprint, since the demo uses a modified player controller for the lift buttons to work)</li>
 <li>Install Dungeon Architect plugin</li>
-<li>Install <a href="https://www.unrealengine.com/marketplace/scifi-hallway">Sci-Fi Hallways</a> (it’s ok to install an older compatible version)</li>
+<li>Install the free <a href="https://www.unrealengine.com/marketplace/scifi-hallway">Sci-Fi Hallways</a> (it’s ok to install an older compatible version)</li>
 <li>Copy the <code>Content/DA_Floorplan_Demo</code> folder into your game’s <code>Content</code> folder</li>
 <li>Open the map <code>Content/DA_Floorplan_Demo/FloorPlan/OfficeBuilding</code></li>
 <li>Press <strong>E</strong> to call the lift programmed in the demo</li>
+</ul>
+<h1 id="city-builder-demo">City Builder Demo</h1>
+<p>This demo shows how to use the city builder</p>
+<div class="figure">
+<img src="../assets/images/citybuilder_demo01.jpg" alt="City Builder" />
+<p class="caption">City Builder</p>
+</div>
+<ul>
+<li>Create a new project</li>
+<li>Install Dungeon Architect plugin</li>
+<li>Copy the <code>Content/DA_CityBuilder_Demo</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps under <code>Content/DA_CityBuilder_Demo/Maps</code></li>
+</ul>
+<h1 id="snap-builder-demo">Snap Builder Demo</h1>
+<p>This demo uses the Snap builder to create a dungeon by stitching pre-built rooms (snap modules) together</p>
+<p><a href="https://coderespawn.github.io/dungeon-architect-snap-map-user-guide-ue4/">Documentation</a></p>
+<p><a href="https://drive.google.com/file/d/1ogDj-hxcYECm8CxSH_knxoHC4jP-qll6/view?usp=sharing">Source Code</a></p>
+<p><a href="https://drive.google.com/file/d/1r7o1Mz-Wf_0H4mp_Rt8AqxkBG6r29loM/view?usp=sharing">Binaries</a></p>
+<p>Download the Source Code and copy it to the Contents folder</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/woKkR6P_sHY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/R5Lcx9YSYpo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/9Crl9tGkHXA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<h1 id="custom-grid-builder-demo">Custom Grid Builder Demo</h1>
+<p>The Custom Grid Builder has high level functions that you can use to define your own dungeon layouts. This demo shows how a custom layout was created in blueprints to create a dungeon layout along a straight line</p>
+<p><iframe width="853" height="480" src="https://www.youtube.com/embed/AzO2gI0NV-Q?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Copy the <code>Content/DA_CustomBuilder</code> folder into your game’s <code>Content</code> folder</li>
+<li>Explore the maps under <code>Content/DA_CustomBuilder/Maps</code></li>
+<li>Check the Dungeon’s Builder class blueprint <code>BP_StraightLineBuilder</code> for an example on building your own layout</li>
 </ul>
 <h1 id="outdoor-cliff">Outdoor Cliff</h1>
 <p>An outdoor theme built with free assets</p>
@@ -384,13 +513,13 @@ $(document).ready(function() {
 <li>Open the map <code>Content/DA_OutdoorCliff/ToonLand</code></li>
 </ul>
 <h1 id="scifi-theme-2-manufactura-k4">Scifi Theme 2 (Manufactura K4)</h1>
-<p>A set of theme files to generate levels using the awesome <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci Fi</a> pack</p>
+<p>A set of theme files to generate levels using the awesome <a href="https://www.unrealengine.com/marketplace/top-down-sci-fi">Top-Down Sci Fi</a> pack</p>
 <p><iframe width="853" height="480" src="https://www.youtube.com/embed/qjLxol2kvqg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 <p><img src="../assets/images/UyD50OHh.jpg" alt="Sample map" /> <img src="../assets/images/77YSPFMh.jpg" alt="Sample map" /> <img src="../assets/images/8BiUQhCh.jpg" alt="Sample map" /></p>
 <ul>
 <li>Create a new project (e.g an FPS project)</li>
 <li>Install Dungeon Architect plugin</li>
-<li>Install <a href="https://www.unrealengine.com/content/7f5f95c832e04440a402fd1d338dbd7e">Top-Down Sci-Fi</a> pack to your project</li>
+<li>Install <a href="https://www.unrealengine.com/marketplace/top-down-sci-fi">Top-Down Sci-Fi</a> pack to your project</li>
 <li>Copy the <code>Content/DA_SciFi_K4</code> folder into your game’s <code>Content</code> folder</li>
 <li>Top-Down Theme:
 <ul>
