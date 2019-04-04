@@ -4,7 +4,7 @@ Dungeon Architect comes bundled with several examples to quickly get you started
 
 Download Content Pack
 =================================
-**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.8.zip)** the Quick Start Content pack for Dungeon Architect version **2.8+**
+**[Download](https://github.com/coderespawn/dungeon-architect-quick-start-ue4/archive/content_2.12.zip)** the Quick Start Content pack for Dungeon Architect version **2.12+**
 
 Plugin Installation (Manual)
 ============================
@@ -224,6 +224,17 @@ YOUTUBE(VZIIEQoMp7o)
 ![Deathmatch map](../assets/images/dm_splash.jpg)
 
 Follow the installation steps [here](https://github.com/coderespawn/dungeon-architect-ue4-demo-dm)
+
+
+Destructible Demo
+=================
+Demo that uses UE4's Apex Destructible feature
+
+YOUTUBE(HwkAuuCnFYk)
+
+* Enable Apex Destructible Plugin in the editor (Edit > Plugins)
+* Add First Person Blueprint pack
+* Copy `Content/DA_Destructible` folder into your game's `Content` folder and explore the map
 
 
 Query System Examples
