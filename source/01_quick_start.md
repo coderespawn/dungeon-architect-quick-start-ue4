@@ -33,7 +33,7 @@ The plugin comes with sample assets and maps to get you started. Open the test m
 ![Game directory structure](../assets/images/SampleInstallFolder.png)
 * Open the sample map by navigating to `Content > DA_StarterPack > Maps > DugeonDesignTime`
 * From the world outliner, click the Dungeon1 Actor.
-* In the details panel, you will find 3 buttons in the Dungeon category. Click the "Build Dungeon" button. This will create a procedural dungeon in your scene using a sample theme you just extracted
+* In the details panel, you will find 3 buttons in the Dungeon category. Click the *Build Dungeon* button. This will create a procedural dungeon in your scene using a sample theme you just extracted
 * The config structure contains various parameters that can be tweaked to get different results
 
 To build this setup yourself from scratch, refer the [User Guide](https://coderespawn.github.io/dungeon-architect-user-guide-ue4)
